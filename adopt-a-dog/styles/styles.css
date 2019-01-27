@@ -31,18 +31,85 @@ p {
   line-height: 1.5;
 }
 
+li {
+  list-style-type: none;
+  display: inline;
+}
+
 .bold {
   font-weight: bold;
 }
 
+header {
+  background-image: url('../images/christopher-harris-57366-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 0;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem;
+}
+
+.logo-container {
+  width: 50%;
+}
+
+.logo-container h2 {
+  color: #81B741;
+  font-family: 'Neuton', serif;
+  font-weight: normal;
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
 .logo {
-  height: 100px;
-  width: 100px;
+  width: 75%;
 }
 
 .checkout-container img {
   height: 25px;
   width: 25px;
+}
+
+.cart-total {
+  color: #FFFFFF;
+}
+
+.checkout-container button {
+  display: block;
+  margin-top: 1rem;
+  width: 10rem;
+  background-color: #81B741;
+  border-color: #81B741;
+  color: #FFFFFF;
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  font-family: 'Work Sans', sans-serif;
+
+}
+
+.main-nav {
+  background-color: #ECECEC;
+  color: #093C60;
+  padding: 1rem;
+}
+
+.main-nav a,
+.main-nav a:active,
+.main-nav a:hover,
+.main-nav a:visited {
+  color: #093C60;
+  text-decoration: none;
+  font-family: 'Neuton', serif;
+  font-size: 1.25rem;
+}
+
+nav li:nth-child(1):after,
+nav li:nth-child(2):after {
+  content: '/';
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 main {
@@ -120,4 +187,35 @@ main {
 
 footer {
   background-color: #093C60;
+  text-align: center;
+  padding: 2rem 25rem;
+}
+
+footer > * {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+footer .logo {
+  width: 32rem;
+}
+
+footer li:nth-child(1):after,
+footer li:nth-child(2):after {
+  content: '/';
+  color: #FFFFFF;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+footer p,
+footer a {
+  color: #FFFFFF;
+}
+
+footer a,
+footer a:hover,
+footer a:visited {
+  text-decoration: none;
+  color: #FFFFFF;
 }
