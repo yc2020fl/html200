@@ -135,6 +135,10 @@ main {
   max-width: 400px;
 }
 
+.all-dogs .dog-tile {
+  width: 20%;
+}
+
 .dog-tile h2,
 .dog-tile p {
   margin-top: 0.5rem;
@@ -188,7 +192,7 @@ main {
 footer {
   background-color: #093C60;
   text-align: center;
-  padding: 2rem 25rem;
+  padding: 2rem 15rem;
 }
 
 footer > * {
@@ -218,4 +222,34 @@ footer a:hover,
 footer a:visited {
   text-decoration: none;
   color: #FFFFFF;
+}
+
+/* BLOG POSTS */
+
+.blog-post-container {
+  padding: 0 5rem;
+  width: 100%;
+}
+
+.blog-post {
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  width: 90%;
+}
+
+.blog-post .image-container {
+  width: 100%;
+}
+
+.blog-post .blog-text {
+  padding-top: 0;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.blog-post img {
+  width: 100%;
 }
