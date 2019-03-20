@@ -1,3 +1,5 @@
+const myDogBreed = 'labradoodle';
+
 function getSheddingAmount(breed) {
     if (breed === 'golden retriever') {
         return 'lots of shedding';
@@ -9,8 +11,6 @@ function getSheddingAmount(breed) {
         return 'not found';
     }
 }
-
-const myDogBreed = 'labradoodle';
 
 console.log(
     getSheddingAmount(myDogBreed)
