@@ -1,5 +1,5 @@
 $(function() {
-  console.log("yep")
+  console.log("Document ready; javascript running")
   $('nav').hide().delay(500).show("slow")
   $('#hide').click(function(){
     $('img').hide()
