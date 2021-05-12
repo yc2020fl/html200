@@ -1,5 +1,3 @@
-
-
 function numberSqure () {
   let input = prompt ('enter a number');
   let square = Number(input);
